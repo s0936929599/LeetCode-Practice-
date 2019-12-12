@@ -34,8 +34,9 @@ tn.left.left=TreeNode(40)
 tn.left.right=TreeNode(50)
 tn.right.left=TreeNode(60)
 tn.right.right=TreeNode(70)
-t=Traversal()
 
+
+t=Traversal()
 print("前序",t.preorder(tn))   #前序 [10, 20, 40, 50, 30, 60, 70]
 
 t=Traversal()
