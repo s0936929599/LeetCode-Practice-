@@ -81,6 +81,10 @@ cout << endl;
 cout << "後序=" ;
 postorder(root);
 cout << endl;
-
+/*
+前序=10 11 7 3 9 15 8 
+中序=7 11 3 10 15 9 8 
+後序=7 3 11 15 8 9 10
+*/
   return (0);
 }
